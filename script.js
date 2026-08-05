@@ -15,13 +15,13 @@ const episodes = [
   {
     title: 'Folge 01 (ZR): Nutzungsausfallschaden',
     description: 'Porsche kaputt, Citroën als Ersatz – gibt es trotzdem Nutzungsausfall? 🚗⚖️\nIn dieser Folge sprechen wir über das BGH-Urteil vom 7. Oktober 2025 (VI ZR 246/24). Der BGH stellt klar: Wer ein zumutbares Ersatzfahrzeug nutzen kann, hat grundsätzlich keinen Anspruch auf Nutzungsausfall – auch wenn Fahrspaß, Prestige und Komfort deutlich geringer sind.\nEin spannender Fall zu Nutzungsausfall, Leasing und der Frage, wann der Verlust eines Fahrzeugs wirklich einen ersatzfähigen Schaden darstellt.',
-    image: 'images/episode-01.JPG',
+    image: 'images/episode-01.jpg',
     spotify: 'https://open.spotify.com/episode/4ysiSUkQiZgsgschRZtSjY?si=yPvO2iyqRVuOwhx2T51XQQ&utm_source=copy-link'
   },
   {
     title: 'Folge 02 (StrR): Distanzfälle',
     description: '💣 Der Täter baut eine Sprengfalle für eine ganz bestimmte Person. Doch das Paket wird von jemand anderem aufgehoben – und explodiert.\nError in persona oder aberratio ictus?\nIn Folge 2 sprechen wir über einen aktuellen BGH-Beschluss zu den Distanzdelikten und die Frage, wie es strafrechtlich zu behandeln ist, wenn bei einer aus der Hand gegebenen Tat am Ende das „falsche“ Opfer getroffen wird.\n🎙️ Folge 2: Distanzdelikte ⚖️ BGH, Beschl. v. 14.07.2025 – 4 StR 281/25',
-    image: 'images/episode-02.JPG',
+    image: 'images/episode-02.jpg',
     spotify: 'https://open.spotify.com/episode/25RWdgNGaGcKgaJZ8vMugz?si=a-ZgSZ5VS66oylM3StsJ7Q&utm_source=copy-link'
   },
   {
