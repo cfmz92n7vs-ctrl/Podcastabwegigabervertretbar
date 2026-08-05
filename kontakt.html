@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Kontaktiere das Team von Abwegig, aber vertretbar – wir freuen uns auf deine Nachricht.">
+  <meta name="theme-color" content="#0e0e10">
+  <title>Kontakt – Abwegig, aber vertretbar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="header-inner">
+      <button class="hamburger-btn" id="hamburger-btn" aria-label="Menü öffnen" aria-expanded="false" aria-controls="off-canvas-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a href="index.html" class="header-brand" aria-label="Startseite">
+        <img src="images/logo.png" alt="Abwegig, aber vertretbar Logo" class="header-logo" width="44" height="44">
+        <span class="header-title">Abwegig<span class="accent">,</span> aber vertretbar</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Off-Canvas Navigation -->
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+  <nav class="off-canvas-nav" id="off-canvas-nav" role="navigation" aria-label="Hauptnavigation">
+    <button class="nav-close-btn" id="nav-close-btn" aria-label="Menü schließen">✕</button>
+    <span class="nav-brand">Menü</span>
+    <ul class="nav-links">
+      <li>
+        <a href="index.html">
+          <i class="nav-icon">🏠</i>
+          Startseite
+        </a>
+      </li>
+      <li><div class="nav-divider"></div></li>
+      <li>
+        <a href="kontakt.html" class="active">
+          <i class="nav-icon">✉️</i>
+          Kontakt
+        </a>
+      </li>
+      <li>
+        <a href="impressum.html">
+          <i class="nav-icon">📄</i>
+          Impressum
+        </a>
+      </li>
+      <li>
+        <a href="datenschutz.html">
+          <i class="nav-icon">🔒</i>
+          Datenschutz
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content" id="main-content">
+    <div class="page-header fade-in">
+      <h1>Kontakt</h1>
+      <p>Schreib uns eine Nachricht — wir freuen uns auf dein Feedback!</p>
+    </div>
+
+    <div class="page-body fade-in" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--sp-lg);">
+      <p>
+        Du hast Fragen, Feedback oder Themenvorschläge? Klicke auf den Button unten, um uns direkt eine E-Mail zu schreiben.
+      </p>
+      <a href="mailto:franzschneckantontobias@gmail.com?subject=Feedback%20Podcast%20-%20Abwegig%2C%20aber%20vertretbar" class="btn-submit" style="align-self: center;">
+        Jetzt E-Mail schreiben
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-copyright">&copy; 2026 Abwegig, aber vertretbar</p>
+      <nav class="footer-links" aria-label="Footer-Navigation">
+        <a href="impressum.html">Impressum</a>
+        <span class="dot">·</span>
+        <a href="datenschutz.html">Datenschutz</a>
+        <span class="dot">·</span>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

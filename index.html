@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Abwegig, aber vertretbar – Der Podcast über ungewöhnliche Ideen, kontroverse Themen und alles, worüber man diskutieren kann.">
+  <meta name="theme-color" content="#0e0e10">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Abwegig, aber vertretbar – Podcast">
+  <meta property="og:description" content="Hier sprechen wir über ungewöhnliche Ideen, kontroverse Themen und alles, worüber man diskutieren kann.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/logo.png">
+
+  <title>Abwegig, aber vertretbar – Podcast</title>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+  <!-- ====================================================
+       HEADER
+       ==================================================== -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="header-inner">
+      <!-- Hamburger Menu Button -->
+      <button class="hamburger-btn" id="hamburger-btn" aria-label="Menü öffnen" aria-expanded="false" aria-controls="off-canvas-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Brand: Logo + Title -->
+      <a href="index.html" class="header-brand" aria-label="Startseite">
+        <img src="images/logo.png" alt="Abwegig, aber vertretbar Logo" class="header-logo" width="44" height="44">
+        <span class="header-title">Abwegig<span class="accent">,</span> aber vertretbar</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ====================================================
+       OFF-CANVAS NAVIGATION
+       ==================================================== -->
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+  <nav class="off-canvas-nav" id="off-canvas-nav" role="navigation" aria-label="Hauptnavigation">
+    <button class="nav-close-btn" id="nav-close-btn" aria-label="Menü schließen">✕</button>
+    <span class="nav-brand">Menü</span>
+    <ul class="nav-links">
+      <li>
+        <a href="index.html" class="active">
+          <i class="nav-icon">🏠</i>
+          Startseite
+        </a>
+      </li>
+      <li><div class="nav-divider"></div></li>
+      <li>
+        <a href="kontakt.html">
+          <i class="nav-icon">✉️</i>
+          Kontakt
+        </a>
+      </li>
+      <li>
+        <a href="impressum.html">
+          <i class="nav-icon">📄</i>
+          Impressum
+        </a>
+      </li>
+      <li>
+        <a href="datenschutz.html">
+          <i class="nav-icon">🔒</i>
+          Datenschutz
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ====================================================
+       MAIN CONTENT
+       ==================================================== -->
+  <main class="main-content" id="main-content">
+
+    <!-- Hero / Begrüßung -->
+    <section class="hero-section fade-in" id="hero-section" aria-label="Willkommen">
+      <p class="hero-tagline">Podcast</p>
+      <h1 class="hero-title">Abwegig, aber vertretbar</h1>
+      <div class="hero-cover-container">
+        <img src="images/logo.png" alt="Abwegig, aber vertretbar Cover" class="hero-cover">
+      </div>
+      <p class="hero-description">
+        Willkommen bei „Abwegig, aber vertretbar". Hier sprechen wir über bedeutende Klassiker, aber auch aktuelle Entscheidungen der Rechtsprechung mit Examensrelevanz.
+      </p>
+    </section>
+
+    <!-- Folgenbereich -->
+    <section class="episodes-section" id="episodes-section" aria-label="Podcast-Folgen">
+      <h2 class="section-heading fade-in">Folgen</h2>
+      <div class="episodes-list fade-in-stagger" id="episodes-list">
+        <!-- Folgen werden dynamisch per JavaScript eingefügt -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================
+       FOOTER
+       ==================================================== -->
+  <footer class="site-footer" id="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-copyright">&copy; 2026 Abwegig, aber vertretbar</p>
+      <nav class="footer-links" aria-label="Footer-Navigation">
+        <a href="impressum.html">Impressum</a>
+        <span class="dot">·</span>
+        <a href="datenschutz.html">Datenschutz</a>
+        <span class="dot">·</span>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Modal Overlay für Episoden-Details -->
+  <div class="modal-overlay" id="episode-modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-episode-title">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Schließen">✕</button>
+      <div class="modal-body" id="modal-body">
+        <!-- Dynamischer Inhalt per JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
