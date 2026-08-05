@@ -16,13 +16,13 @@ const episodes = [
     title: 'Folge 01 (ZR): Nutzungsausfallschaden',
     description: 'Porsche kaputt, Citroën als Ersatz – gibt es trotzdem Nutzungsausfall? 🚗⚖️\nIn dieser Folge sprechen wir über das BGH-Urteil vom 7. Oktober 2025 (VI ZR 246/24). Der BGH stellt klar: Wer ein zumutbares Ersatzfahrzeug nutzen kann, hat grundsätzlich keinen Anspruch auf Nutzungsausfall – auch wenn Fahrspaß, Prestige und Komfort deutlich geringer sind.\nEin spannender Fall zu Nutzungsausfall, Leasing und der Frage, wann der Verlust eines Fahrzeugs wirklich einen ersatzfähigen Schaden darstellt.',
     image: 'images/episode-01.jpg',
-    spotify: 'https://open.spotify.com/show/033GThtixDop3Eiz8R932n'
+    spotify: 'https://open.spotify.com/episode/4ysiSUkQiZgsgschRZtSjY'
   },
   {
     title: 'Folge 02 (StrR): Distanzfälle',
     description: '💣 Der Täter baut eine Sprengfalle für eine ganz bestimmte Person. Doch das Paket wird von jemand anderem aufgehoben – und explodiert.\nError in persona oder aberratio ictus?\nIn Folge 2 sprechen wir über einen aktuellen BGH-Beschluss zu den Distanzdelikten und die Frage, wie es strafrechtlich zu behandeln ist, wenn bei einer aus der Hand gegebenen Tat am Ende das „falsche“ Opfer getroffen wird.\n🎙️ Folge 2: Distanzdelikte ⚖️ BGH, Beschl. v. 14.07.2025 – 4 StR 281/25',
     image: 'images/episode-02.jpg',
-    spotify: 'https://open.spotify.com/show/033GThtixDop3Eiz8R932n'
+    spotify: 'https://open.spotify.com/episode/25RWdgNGaGcKgaJZ8vMugz'
   },
   {
     title: 'Folge 03 (ÖR): Äußerungen eines Ministers in einer Talkshow',
@@ -34,7 +34,7 @@ const episodes = [
       }
     ],
     image: 'images/episode-03.jpg',
-    spotify: 'https://open.spotify.com/episode/0AfTcTdRnefC6X0lEdEC0J?si=Bg-lD9SLQhyi0FNo2lgRzw&utm_source=copy-link'
+    spotify: 'https://open.spotify.com/episode/0AfTcTdRnefC6X0lEdEC0J'
   },
   {
     title: 'Folge 04 (ZR): Rangsdorfer Hausdrama',
@@ -50,7 +50,7 @@ const episodes = [
       }
     ],
     image: 'images/episode-04.jpg',
-    spotify: 'https://open.spotify.com/episode/66nLNf96iUwDxa7UePw8tb?si=alqZhSm4Rmygzw7ql3mPrQ&utm_source=copy-link'
+    spotify: 'https://open.spotify.com/episode/66nLNf96iUwDxa7UePw8tb'
   },
   {
     title: 'Folge 05 (StrR): Sukzessive Qualifikation',
@@ -62,7 +62,7 @@ const episodes = [
       }
     ],
     image: 'images/episode-05.jpg',
-    spotify: 'https://open.spotify.com/episode/2uttYyFsTaMIHGPGuFt2P8?si=GJSqomDpRVGYoz6LEVUYQg&utm_source=copy-link'
+    spotify: 'https://open.spotify.com/episode/2uttYyFsTaMIHGPGuFt2P8'
   },
   {
     title: 'Folge 06 (EurR): Der EuGH als Gesetzlicher Richter im Sinne des Art. 101 I 2 GG',
