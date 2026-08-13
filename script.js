@@ -66,8 +66,15 @@ const episodes = [
   },
   {
     title: 'Folge 06 (EurR): Der EuGH als Gesetzlicher Richter im Sinne des Art. 101 I 2 GG',
-    description: 'Coming Soon 🎙️',
+    description: 'Kann eine Bundesbehörde wie das BVL selbst Verfassungsbeschwerde beim Bundesverfassungsgericht einreichen, wenn ein Gericht eine Frage nicht dem EuGH vorgelegt hat? 🤔\nIn dieser Folge beleuchten wir den Beschluss des BVerfG (1 BvR 1523/23):\n🏛️ Zulässigkeit & Grundrechte: Warum Behörden sich ausnahmsweise auf Justizgrundrechte wie den „gesetzlichen Richter“ (Art. 101 Abs. 1 S. 2 GG) berufen dürfen.\n 🇪🇺EU-Recht: Ist der EuGH "gesetzlicher Richter" iSd. Art. 101 GG und wenn ja warum?.\n⚖️ Keine Pflichtverletzung: Weshalb das OVG die Vorlage an den EuGH nicht willkürlich unterlassen hat und die Verfassungsbeschwerde letztlich scheiterte.\nEine kompakte Jura-Dosis zu den Grenzen der Verfassungsbeschwerde und der Vorlagepflicht an den EuGH! 🎧✨',
     image: 'images/episode-06.jpg',
+    spotify: null,
+    comingSoon: true
+  },
+  {
+    title: 'Folge 07 (ZR): Abzug "Neu für Alt" im Kauf- und Werkvertragsrecht',
+    description: 'Coming Soon 🎙️',
+    image: 'images/episode-07.png',
     spotify: null,
     comingSoon: true
   }
