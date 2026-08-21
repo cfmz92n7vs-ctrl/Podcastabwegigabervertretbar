@@ -78,10 +78,19 @@ const episodes = [
   },
   {
     title: 'Folge 07 (ZR): Abzug "Neu für Alt" im Kauf- und Werkvertragsrecht',
-    description: 'Coming Soon 🎙️',
+    description: 'Was passiert eigentlich, wenn ein Mangel erst Jahre später beseitigt wird – und der Käufer oder Besteller dadurch am Ende etwas „Neueres" bekommt, als ursprünglich geschuldet war? \nIn dieser Folge schauen wir uns zwei Fälle aus dem Gewährleistungsrecht an: einmal aus dem Kaufrecht, einmal aus dem Werkvertragsrecht. \nIm Mittelpunkt stehen ein feuchter Keller, ein mangelhaft errichtetes Fahrsilo und die Frage, wer die Kosten einer vollständigen Erneuerung tragen muss.\nDabei geht es unter anderem um Schadensersatz statt der Leistung, Selbstvornahme und Kostenvorschuss, Arglist und Haftungsausschluss, die Entbehrlichkeit einer Fristsetzung und natürlich um den examensrelevanten Vorteilsausgleich „neu für alt". \nWie immer: zwei Fälle, eine zentrale Wertungsfrage – und jede Menge Stoff für die mündliche Prüfung und Examensklausur.',
+    articleLinks: [
+      {
+        label: '📖 Zum Urteil: Werkvertragsrecht: ➔',
+        url: 'https://examensgerecht.de/vorteilsausgleich-im-werkvertragsrecht/'
+      },
+      {
+        label: '📖 Zum Urteil: Kaufrecht: ➔',
+        url: 'https://examensgerecht.de/alte-sache-neues-teil-abzug-neu-fuer-alt/'
+      }
+    ],
     image: 'images/episode-07.png',
-    spotify: null,
-    comingSoon: true
+    spotify: 'https://open.spotify.com/episode/4yXJaOzrXdUCFpPO4QyYyO'
   }
 ];
 
