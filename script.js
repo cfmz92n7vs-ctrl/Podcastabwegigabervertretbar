@@ -89,8 +89,27 @@ const episodes = [
         url: 'https://examensgerecht.de/alte-sache-neues-teil-abzug-neu-fuer-alt/'
       }
     ],
-    image: 'images/episode-07.png',
+    image: 'images/episode-07.jpg',
     spotify: 'https://open.spotify.com/episode/4yXJaOzrXdUCFpPO4QyYyO'
+  },
+  {
+    title: 'Folge 08 (StrR): Scheinwaffen, Luftpumpen und Labellos',
+    description: '🥷 In dieser Folge geht es um einen scheinbar einfachen Raub mit einer ungewöhnlichen „Waffe": einer <strong>Luftpumpe</strong>.\nDoch kann ein objektiv ungefährlicher Gegenstand einen <strong>schweren Raub nach § 250 I Nr. 1 lit. b StGB</strong> begründen?\n🔍 Wir schauen uns den Streit um sogenannte <strong>Scheinwaffen</strong> an und klären, wann ein Gegenstand als „sonstiges Werkzeug oder Mittel" gilt. Außerdem geht es um die spannende Abgrenzung zu bloß schein-untauglichen Gegenständen und die Frage, ob eine Drohung gegenüber Dritten genügt. ⚖️\n\n📄 Beschluss vom 28.03.2023 – 4 StR 61/23, NStZ-RR 2023, 204',
+    articleLinks: [
+      {
+        label: '📖 Zum Beitrag auf examensgerecht.de ➔',
+        url: 'https://examensgerecht.de/die-scheinbar-gefahrliche-luftpumpe/'
+      }
+    ],
+    image: 'images/episode-08.jpg',
+    spotify: 'https://open.spotify.com/episode/0HJGr3FNsKsXuckjE5UC2n'
+  },
+  {
+    title: 'Folge 09 (ZR)',
+    description: 'Coming Soon 🎙️',
+    image: 'images/episode-09.png',
+    spotify: null,
+    comingSoon: true
   }
 ];
 
