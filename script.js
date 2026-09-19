@@ -105,9 +105,23 @@ const episodes = [
     spotify: 'https://open.spotify.com/episode/0HJGr3FNsKsXuckjE5UC2n'
   },
   {
-    title: 'Folge 09 (ZR)',
+    title: 'Folge 09 (ÖR): Informationshandeln des Staates',
+    description: '🎙️ <strong>Wann wird staatliche Information zum Grundrechtseingriff?</strong> Anhand eines konkreten Falls schauen wir uns den modernen Eingriffsbegriff an und klären, wann staatliches Informationshandeln einen Gesetzesvorbehalt auslöst. ⚖️📚 Ideal, um das Prüfungsschema direkt am Fall zu verstehen und einzuprägen.',
+    image: 'images/episode-09.jpg',
+    infographic: 'images/episode-09-schema.jpg',
+    sources: [
+      'BVerwGE 87, 37, 44, 90, 112, 120',
+      'Schoch, DVBl. 1991, 667, 670',
+      'Di Fabio, JuS 1997, 1, 5',
+      'BVerfG, NJW 2002, 2621 – die im Schaubild verwendete Entscheidung zur staatlichen Verbraucherinformation („Glykol“); die Entscheidung ist auch als BVerfGE 105, 252 veröffentlicht.'
+    ],
+    spotify: null,
+    comingSoon: true
+  },
+  {
+    title: 'Folge 10 (ZR)',
     description: 'Coming Soon 🎙️',
-    image: 'images/episode-09.png',
+    image: 'images/episode-10.jpg',
     spotify: null,
     comingSoon: true
   }
@@ -192,10 +206,44 @@ function openEpisodeModal(episode, index) {
   // Beschreibung formatieren
   let descriptionHTML = episode.description;
 
+  // Markdown **bold** in <strong> umwandeln
+  descriptionHTML = descriptionHTML.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
   // Web-URLs in klickbare Links umwandeln
   descriptionHTML = descriptionHTML.replace(/(https?:\/\/[^\s]+)/g, function(url) {
     return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
   });
+
+  // Falls eine Infografik / Schema vorhanden ist
+  let infographicHTML = '';
+  if (episode.infographic) {
+    infographicHTML = `
+      <div class="modal-infographic-wrap">
+        <div class="modal-infographic-title">📊 Übersichtsgrafik / Prüfungsschema:</div>
+        <a href="${episode.infographic}" target="_blank" rel="noopener noreferrer" class="modal-infographic-link" title="Grafik in voller Auflösung öffnen">
+          <img src="${episode.infographic}" alt="Schema: ${episode.title}" class="modal-infographic-img" loading="lazy">
+        </a>
+        <span class="modal-infographic-hint">🔍 Klicke auf die Grafik, um sie in voller Auflösung im neuen Tab zu öffnen</span>
+      </div>
+    `;
+  }
+
+  // Falls Quellen vorhanden sind
+  let sourcesHTML = '';
+  if (episode.sources && episode.sources.length > 0) {
+    const listItems = episode.sources.map(function(source) {
+      return `<li>${source}</li>`;
+    }).join('');
+
+    sourcesHTML = `
+      <div class="modal-sources-wrap">
+        <div class="modal-sources-title">📚 Quellen & Rechtsprechung:</div>
+        <ul class="modal-sources-list">
+          ${listItems}
+        </ul>
+      </div>
+    `;
+  }
 
   // Falls Artikel-Links vorhanden sind, als Buttons am Ende anfügen
   let articleLinksHTML = '';
@@ -240,6 +288,8 @@ function openEpisodeModal(episode, index) {
     ${spotifyButtonHTML}
     <div class="modal-description">
       ${descriptionHTML}
+      ${infographicHTML}
+      ${sourcesHTML}
       ${articleLinksHTML}
     </div>
   `;

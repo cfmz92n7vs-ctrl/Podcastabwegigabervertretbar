@@ -1423,3 +1423,78 @@ button {
   height: 22px;
   fill: currentColor;
 }
+
+/* ----------------------------------------------------------
+   17. Infografik im Modal
+   ---------------------------------------------------------- */
+.modal-infographic-wrap {
+  margin-top: var(--sp-lg);
+  margin-bottom: var(--sp-sm);
+  text-align: center;
+}
+
+.modal-infographic-title {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--clr-accent);
+  margin-bottom: var(--sp-xs);
+  text-align: left;
+}
+
+.modal-infographic-link {
+  display: block;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  transition: transform var(--dur-normal) var(--ease-smooth);
+}
+
+.modal-infographic-link:hover {
+  transform: scale(1.01);
+}
+
+.modal-infographic-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: zoom-in;
+  border-radius: var(--radius-sm);
+}
+
+.modal-infographic-hint {
+  display: block;
+  font-size: var(--fs-xs);
+  color: var(--clr-text-subtle);
+  margin-top: var(--sp-xs);
+}
+
+/* ----------------------------------------------------------
+   18. Quellen im Modal
+   ---------------------------------------------------------- */
+.modal-sources-wrap {
+  margin-top: var(--sp-lg);
+  margin-bottom: var(--sp-sm);
+  text-align: left;
+}
+
+.modal-sources-title {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--clr-accent);
+  margin-bottom: var(--sp-xs);
+}
+
+.modal-sources-list {
+  list-style: disc;
+  margin-left: var(--sp-lg);
+  font-size: var(--fs-xs);
+  color: var(--clr-text-muted);
+  line-height: 1.6;
+}
+
+.modal-sources-list li {
+  margin-bottom: 4px;
+}
+
+
