@@ -115,13 +115,24 @@ const episodes = [
       'Di Fabio, JuS 1997, 1, 5',
       'BVerfG, NJW 2002, 2621 – die im Schaubild verwendete Entscheidung zur staatlichen Verbraucherinformation („Glykol“); die Entscheidung ist auch als BVerfGE 105, 252 veröffentlicht.'
     ],
-    spotify: null,
-    comingSoon: true
+    spotify: 'https://open.spotify.com/episode/0yoCF8aa6TYEhjKCh4JmuR'
   },
   {
-    title: 'Folge 10 (ZR)',
-    description: 'Coming Soon 🎙️',
+    title: 'Folge 10 (ZR): Mangelfolgeschaden',
+    description: 'In dieser Folge geht es um einen undichten Fahrsilo, eine vorschnell verkaufte Maisernte und Mehrkosten von fast 67.000 Euro. Im Mittelpunkt steht die Frage, ob diese Kosten als Schadensersatz neben oder statt der Leistung einzuordnen sind, ob ein Verzugs- oder Mangelfolgeschaden vorliegt und welche Rolle ein mögliches Mitverschulden des Bestellers spielt.',
+    articleLinks: [
+      {
+        label: '📖 Zum Beitrag auf examensgerecht.de ➔',
+        url: 'https://examensgerecht.de/mangelbedingte-nutzungsbeeintraechtigung/'
+      }
+    ],
     image: 'images/episode-10.jpg',
+    spotify: 'https://open.spotify.com/episode/14rpr47NQSrgmPVn3GfC0Y'
+  },
+  {
+    title: 'Folge 11 (StrR)',
+    description: 'Coming Soon 🎙️',
+    image: 'images/episode-11.jpg',
     spotify: null,
     comingSoon: true
   }
