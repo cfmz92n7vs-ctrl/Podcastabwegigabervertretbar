@@ -131,7 +131,13 @@ const episodes = [
   },
   {
     title: 'Folge 11 (StrR)',
-    description: 'Coming Soon 🎙️',
+    description: 'Ein angeblicher Katzenkönig, ein tödlicher Auftrag und die Macht der Manipulation. 🐈‍⬛👑 \nWas passiert, wenn jemand glaubt, einen Menschen opfern zu müssen, um die Welt zu retten? Kann dieser Glaube die Tat entschuldigen – und welche Rolle spielt dabei der Verbotsirrtum? \nWer trägt die Verantwortung, wenn im Hintergrund andere die Fäden ziehen? \nWir sprechen über mittelbare Täterschaft und die Frage nach dem „Täter hinter dem Täter“. Der Katzenkönig-Fall: bizarrer Sachverhalt, zentrale Fragen des Strafrechts. Jetzt reinhören! 🎧',
+    articleLinks: [
+      {
+        label: '📖 Zum Beitrag auf JuraOnline ➔',
+        url: 'https://jura-online.de/blog/2016/09/18/katzenkoenig-fall/'
+      }
+    ],
     image: 'images/episode-11.jpg',
     spotify: null,
     comingSoon: true
