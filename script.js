@@ -130,7 +130,7 @@ const episodes = [
     spotify: 'https://open.spotify.com/episode/14rpr47NQSrgmPVn3GfC0Y'
   },
   {
-    title: 'Folge 11 (StrR)',
+    title: 'Folge 11 (StrR): Katzenkönig',
     description: 'Ein angeblicher Katzenkönig, ein tödlicher Auftrag und die Macht der Manipulation. 🐈‍⬛👑 \nWas passiert, wenn jemand glaubt, einen Menschen opfern zu müssen, um die Welt zu retten? Kann dieser Glaube die Tat entschuldigen – und welche Rolle spielt dabei der Verbotsirrtum? \nWer trägt die Verantwortung, wenn im Hintergrund andere die Fäden ziehen? \nWir sprechen über mittelbare Täterschaft und die Frage nach dem „Täter hinter dem Täter“. Der Katzenkönig-Fall: bizarrer Sachverhalt, zentrale Fragen des Strafrechts. Jetzt reinhören! 🎧',
     articleLinks: [
       {
@@ -139,6 +139,18 @@ const episodes = [
       }
     ],
     image: 'images/episode-11.jpg',
+    spotify: 'https://open.spotify.com/episode/7tpf8g8mqwBDXM7wh7RcNv'
+  },
+  {
+    title: 'Folge 12 (ÖR): Die "Essentials" des § 80 V VwGO',
+    description: 'Ein belastender Bescheid, sofortige Vollziehung und keine Zeit für ein langes Verfahren. ⚖️⏳\nWann hilft ein Antrag nach § 80 Abs. 5 VwGO – und wann ist § 123 VwGO der richtige Weg?\nWiederherstellung oder Anordnung der aufschiebenden Wirkung: Worauf kommt es an?\nWelche Rolle spielen die Begründung der Vollziehungsanordnung und die Erfolgsaussichten in der Hauptsache?\nWir nehmen Zulässigkeit, Interessenabwägung und die typischen Klausurprobleme unter die Lupe.\nEinstweiliger Rechtsschutz Schritt für Schritt – jetzt reinhören! 🎧',
+    image: 'images/episode-12.jpg',
+    spotify: null
+  },
+  {
+    title: 'Folge 13 (ZR): § 771 oder doch § 805 ZPO?',
+    description: 'Eine gepfändete Sache, fremde Rechte und die Frage: Wer darf auf den Erlös zugreifen? ⚖️💸\nWann ist die Drittwiderspruchsklage nach § 771 ZPO der richtige Weg – und wann hilft § 805 ZPO?\nEntscheidend ist das Ziel: die Verwertung verhindern oder vorzugsweise befriedigt werden?\nWelche Rechte tragen welche Klage – und welche Rolle spielt dabei die InsO?\nWir schauen auf die Unterschiede, typische Klausurkonstellationen und die Fallstricke bei der Abgrenzung.\nZwei Rechtsbehelfe, zwei verschiedene Ziele – jetzt reinhören! 🎧',
+    image: 'images/episode-13.jpg',
     spotify: null,
     comingSoon: true
   }
