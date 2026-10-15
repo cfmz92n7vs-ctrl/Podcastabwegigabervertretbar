@@ -153,6 +153,13 @@ const episodes = [
     image: 'images/episode-13.jpg',
     spotify: null,
     comingSoon: true
+  },
+  {
+    title: 'Folge 14 (StrR): § 28 StGB zwischen Mord und Totschlag',
+    description: '🎙️ Mord oder Totschlag – und was hat § 28 StGB damit zu tun? ⚖️🔪 In dieser Folge schauen wir uns das Verhältnis zwischen §§ 211 und 212 StGB genauer an. Dabei geht’s vor allem um die Frage, ob Mord ein eigenständiges Delikt oder eine Qualifikation des Totschlags ist. 🧐 Wir klären, warum diese Unterscheidung bei der Teilnahme und der Anwendung von § 28 StGB so entscheidend ist. Natürlich dürfen auch die unterschiedlichen Ansichten von Rechtsprechung und Literatur nicht fehlen! 📚🔥 Perfekt, um einen echten Strafrechtsklassiker endlich zu durchblicken! 🎧',
+    image: 'images/episode-14.jpg',
+    spotify: null,
+    comingSoon: true
   }
 ];
 
