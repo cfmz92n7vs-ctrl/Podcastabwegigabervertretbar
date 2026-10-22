@@ -142,7 +142,7 @@ const episodes = [
     spotify: 'https://open.spotify.com/episode/7tpf8g8mqwBDXM7wh7RcNv'
   },
   {
-    title: 'Folge 12 (ÖR): Alles um den § 80 V VwGO',
+    title: 'Folge 12 (ÖR): Die "Essentials" des § 80 V VwGO',
     description: 'Ein belastender Bescheid, sofortige Vollziehung und keine Zeit für ein langes Verfahren. ⚖️⏳\nWann hilft ein Antrag nach § 80 Abs. 5 VwGO – und wann ist § 123 VwGO der richtige Weg?\nWiederherstellung oder Anordnung der aufschiebenden Wirkung: Worauf kommt es an?\nWelche Rolle spielen die Begründung der Vollziehungsanordnung und die Erfolgsaussichten in der Hauptsache?\nWir nehmen Zulässigkeit, Interessenabwägung und die typischen Klausurprobleme unter die Lupe.\nEinstweiliger Rechtsschutz Schritt für Schritt – jetzt reinhören! 🎧',
     image: 'images/episode-12.jpg',
     spotify: 'https://open.spotify.com/episode/7tpf8g8mqwBDXM7wh7RcNv'
