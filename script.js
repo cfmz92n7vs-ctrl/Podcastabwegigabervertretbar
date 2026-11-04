@@ -151,13 +151,18 @@ const episodes = [
     title: 'Folge 13 (ZR): § 771 oder doch § 805 ZPO?',
     description: 'Eine gepfändete Sache, fremde Rechte und die Frage: Wer darf auf den Erlös zugreifen? ⚖️💸\nWann ist die Drittwiderspruchsklage nach § 771 ZPO der richtige Weg – und wann hilft § 805 ZPO?\nEntscheidend ist das Ziel: die Verwertung verhindern oder vorzugsweise befriedigt werden?\nWelche Rechte tragen welche Klage – und welche Rolle spielt dabei die InsO?\nWir schauen auf die Unterschiede, typische Klausurkonstellationen und die Fallstricke bei der Abgrenzung.\nZwei Rechtsbehelfe, zwei verschiedene Ziele – jetzt reinhören! 🎧',
     image: 'images/episode-13.jpg',
-    spotify: null,
-    comingSoon: true
+    spotify: 'https://open.spotify.com/show/033GThtixDop3Eiz8R932n'
   },
   {
     title: 'Folge 14 (StrR): § 28 StGB zwischen Mord und Totschlag',
     description: '🎙️ Mord oder Totschlag – und was hat § 28 StGB damit zu tun? ⚖️🔪 In dieser Folge schauen wir uns das Verhältnis zwischen §§ 211 und 212 StGB genauer an. Dabei geht’s vor allem um die Frage, ob Mord ein eigenständiges Delikt oder eine Qualifikation des Totschlags ist. 🧐 Wir klären, warum diese Unterscheidung bei der Teilnahme und der Anwendung von § 28 StGB so entscheidend ist. Natürlich dürfen auch die unterschiedlichen Ansichten von Rechtsprechung und Literatur nicht fehlen! 📚🔥 Perfekt, um einen echten Strafrechtsklassiker endlich zu durchblicken! 🎧',
     image: 'images/episode-14.jpg',
+    spotify: 'https://open.spotify.com/show/033GThtixDop3Eiz8R932n'
+  },
+  {
+    title: 'Folge 15 (ZR): Gefährdungshaftung, § 840 III BGB analog',
+    description: 'Ein Tierischer Schaden und die Frage: Wer trägt am Ende das Risiko? 🐾⚖️\nWann verwirklicht sich eine tierspezifische Gefahr – und wie ist das bei Eigenschädigungen?\nWelche Rolle spielt die eigene Tiergefahr bei einer analogen Anwendung von § 254 BGB?\nUnd wie wirkt sich § 840 Abs. 3 BGB analog auf die Haftungsverteilung aus?\nWir nehmen die Tierhalterhaftung unter die Lupe und bringen Struktur in das Zusammenspiel der Normen.\nEin tierischer Fall mit kniffligen Abgrenzungen – jetzt reinhören! 🎧',
+    image: 'images/episode-15.jpg',
     spotify: null,
     comingSoon: true
   }
@@ -420,7 +425,7 @@ function createEpisodeCard(episode, index) {
 }
 
 /**
- * Rendert alle Episoden in die Liste.
+ * Rendert alle Episoden in die Liste (antichronologisch: neueste Folge zuerst).
  */
 function renderEpisodes() {
   if (!episodesList) return; // Seite hat keinen Episoden-Bereich
@@ -428,10 +433,11 @@ function renderEpisodes() {
   // Container leeren (falls erneut aufgerufen)
   episodesList.innerHTML = '';
 
-  episodes.forEach(function (episode, index) {
-    const card = createEpisodeCard(episode, index);
+  // Antichronologisch: Neueste Folge ganz oben anzeigen
+  for (let i = episodes.length - 1; i >= 0; i--) {
+    const card = createEpisodeCard(episodes[i], i);
     episodesList.appendChild(card);
-  });
+  }
 }
 
 // Initial rendern
