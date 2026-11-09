@@ -160,9 +160,16 @@ const episodes = [
     spotify: 'https://open.spotify.com/show/033GThtixDop3Eiz8R932n'
   },
   {
-    title: 'Folge 15 (ZR): Gefährdungshaftung, § 840 III BGB analog',
-    description: 'Ein Tierischer Schaden und die Frage: Wer trägt am Ende das Risiko? 🐾⚖️\nWann verwirklicht sich eine tierspezifische Gefahr – und wie ist das bei Eigenschädigungen?\nWelche Rolle spielt die eigene Tiergefahr bei einer analogen Anwendung von § 254 BGB?\nUnd wie wirkt sich § 840 Abs. 3 BGB analog auf die Haftungsverteilung aus?\nWir nehmen die Tierhalterhaftung unter die Lupe und bringen Struktur in das Zusammenspiel der Normen.\nEin tierischer Fall mit kniffligen Abgrenzungen – jetzt reinhören! 🎧',
+    title: 'Folge 15 (ÖR): Die "Essentials" des § 123 I VwGO',
+    shortDescription: '⚖️ Folge 15 – Öffentliches Recht: § 123 VwGO – Einstweiliger Rechtsschutz\nWenn die Hauptsache zu lange dauert: Wie kommt man im Verwaltungsrecht schnell zu seinem Recht? ⏳⚖️\nIn unserer 15. Folge von „Abwegig, aber vertretbar“ beschäftigen wir uns mit dem einstweiligen Rechtsschutz nach § 123 VwGO.\nWann ist ein Antrag auf Erlass einer einstweiligen Anordnung zulässig? Welche Voraussetzungen müssen vorliegen, damit das Verwaltungsgericht dem Antrag stattgibt? Und worin liegt eigentlich der Unterschied zwischen Anordnungsanspruch und Anordnungsgrund?',
+    description: '⚖️ Folge 15 – Öffentliches Recht: § 123 VwGO – Einstweiliger Rechtsschutz\nWenn die Hauptsache zu lange dauert: Wie kommt man im Verwaltungsrecht schnell zu seinem Recht? ⏳⚖️\nIn unserer 15. Folge von „Abwegig, aber vertretbar“ beschäftigen wir uns mit dem einstweiligen Rechtsschutz nach § 123 VwGO.\nWann ist ein Antrag auf Erlass einer einstweiligen Anordnung zulässig? Welche Voraussetzungen müssen vorliegen, damit das Verwaltungsgericht dem Antrag stattgibt? Und worin liegt eigentlich der Unterschied zwischen Anordnungsanspruch und Anordnungsgrund?\nWir gehen das Prüfungsschema des § 123 VwGO Schritt für Schritt durch und erklären die entscheidenden Voraussetzungen:\n🔹 Statthaftigkeit: Wann ist § 123 VwGO einschlägig und wie erfolgt die Abgrenzung zu §§ 80, 80a VwGO?\n🔹 Zulässigkeit: Welche weiteren Sachentscheidungsvoraussetzungen müssen erfüllt sein?\n🔹 Anordnungsanspruch: Besteht ein materiell-rechtlicher Anspruch auf die begehrte Sicherung oder Regelung?\n🔹 Anordnungsgrund: Wann liegt die besondere Eilbedürftigkeit vor?\n🔹 Glaubhaftmachung: Wie müssen Anordnungsanspruch und Anordnungsgrund glaubhaft gemacht werden?\n🔹 Vorwegnahme der Hauptsache: Warum ist sie grundsätzlich unzulässig und unter welchen Voraussetzungen ausnahmsweise möglich?\n🎓 Unser Ziel: Ihr sollt § 123 VwGO in der Klausur sicher prüfen können, die Voraussetzungen verstehen und typische Fehler vermeiden.\nEin examensrelevantes Thema, kompakt und verständlich aufbereitet – für Studium, Klausur und mündliche Prüfung.\n🎧 Jetzt reinhören – Folge 15: § 123 VwGO – Einstweiliger Rechtsschutz!\n#AbwegigAberVertretbar #JuraPodcast #JuraStudium #ÖffentlichesRecht #VwGO #123VwGO #Eilrechtsschutz #EinstweiligeAnordnung #Jurastudium #Staatsexamen #Examensvorbereitung #JuraLernen',
     image: 'images/episode-15.jpg',
+    spotify: 'https://open.spotify.com/show/033GThtixDop3Eiz8R932n'
+  },
+  {
+    title: 'Folge 16 (ZR): Gefährdungshaftung, § 840 III BGB analog',
+    description: 'Ein Tierischer Schaden und die Frage: Wer trägt am Ende das Risiko? 🐾⚖️\nWann verwirklicht sich eine tierspezifische Gefahr – und wie ist das bei Eigenschädigungen?\nWelche Rolle spielt die eigene Tiergefahr bei einer analogen Anwendung von § 254 BGB?\nUnd wie wirkt sich § 840 Abs. 3 BGB analog auf die Haftungsverteilung aus?\nWir nehmen die Tierhalterhaftung unter die Lupe und bringen Struktur in das Zusammenspiel der Normen.\nEin tierischer Fall mit kniffligen Abgrenzungen – jetzt reinhören! 🎧',
+    image: 'images/episode-16.jpg',
     spotify: null,
     comingSoon: true
   }
@@ -403,7 +410,7 @@ function createEpisodeCard(episode, index) {
     <div class="episode-info">
       <span class="episode-number">Episode ${index + 1} ${comingSoonBadge}</span>
       <h3 class="episode-title">${episode.title}</h3>
-      <p class="episode-desc">${episode.description}</p>
+      <p class="episode-desc">${episode.shortDescription || episode.description}</p>
     </div>
     <div class="episode-play-icon" aria-hidden="true">
       ${iconSVG}
