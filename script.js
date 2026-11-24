@@ -170,6 +170,19 @@ const episodes = [
     title: 'Folge 16 (ZR): Gefährdungshaftung, § 840 III BGB analog',
     description: 'Ein Tierischer Schaden und die Frage: Wer trägt am Ende das Risiko? 🐾⚖️\nWann verwirklicht sich eine tierspezifische Gefahr – und wie ist das bei Eigenschädigungen?\nWelche Rolle spielt die eigene Tiergefahr bei einer analogen Anwendung von § 254 BGB?\nUnd wie wirkt sich § 840 Abs. 3 BGB analog auf die Haftungsverteilung aus?\nWir nehmen die Tierhalterhaftung unter die Lupe und bringen Struktur in das Zusammenspiel der Normen.\nEin tierischer Fall mit kniffligen Abgrenzungen – jetzt reinhören! 🎧',
     image: 'images/episode-16.jpg',
+    spotify: 'https://open.spotify.com/show/033GThtixDop3Eiz8R932n'
+  },
+  {
+    title: 'Folge 17 (StrR): Jauchegrubenfall',
+    shortDescription: 'Kann sich jemand wegen eines vollendeten vorsätzlichen Tötungsdelikts strafbar machen, obwohl der Tod anders eintritt als ursprünglich beabsichtigt?\nIn dieser Folge beschäftigen wir uns mit dem Jauchgrubenfall – einem der bekanntesten Klassiker des Strafrechts. Im Mittelpunkt steht die Frage, welche Auswirkungen eine Abweichung vom vorgestellten Kausalverlauf auf die Strafbarkeit des Täters hat.',
+    description: 'Kann sich jemand wegen eines vollendeten vorsätzlichen Tötungsdelikts strafbar machen, obwohl der Tod anders eintritt als ursprünglich beabsichtigt?\nIn dieser Folge beschäftigen wir uns mit dem Jauchgrubenfall – einem der bekanntesten Klassiker des Strafrechts. Im Mittelpunkt steht die Frage, welche Auswirkungen eine Abweichung vom vorgestellten Kausalverlauf auf die Strafbarkeit des Täters hat.\nDabei besprechen wir insbesondere:\nDie Abweichung vom vorgestellten Kausalverlauf\nDie Rechtsfigur des dolus generalis\nDas Koinzidenzprinzip\nDie Abgrenzung zwischen vollendetem Tötungsdelikt und versuchter Tötung in Verbindung mit fahrlässiger Tötung\nEin examensrelevanter Klassiker, der zeigt, wie eng Vorsatz, Kausalität und objektive Zurechnung miteinander verbunden sind.\n🎙️ Abwegig, aber vertretbar – Dein Podcast für juristische Probleme und examensrelevante Entscheidungen.',
+    image: 'images/episode-17.jpg',
+    spotify: 'https://open.spotify.com/show/033GThtixDop3Eiz8R932n'
+  },
+  {
+    title: 'Folge 18',
+    description: 'Coming Soon 🎙️',
+    image: 'images/episode-18.jpg',
     spotify: null,
     comingSoon: true
   }
